@@ -232,7 +232,7 @@ hsqldb() {
     java -Xmx512M -ea -esa -cp "${CP}${PS}lib/hsqldb.jar" \
         mondrian.test.loader.MondrianFoodMartLoader \
         -verbose -tables -data -indexes \
-        -jdbcDrivers=org.hsqldb.jdbcDriver \
+        -jdbcDrivers=org.hsqldb.jdbc.jdbcDriver \
         -inputFile=demo/FoodMartCreateData.sql \
         -outputJdbcBatchSize=1 \
         -outputJdbcURL="jdbc:hsqldb:file:demo/hsqldb/foodmart" \

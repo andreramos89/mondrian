@@ -35,7 +35,7 @@ Must be a comma-separated list of class names, and the classes must be
 on the class path.
         </Description>
         <Type>String</Type>
-        <Default>sun.jdbc.odbc.JdbcOdbcDriver,org.hsqldb.jdbcDriver,oracle.jdbc.OracleDriver,com.mysql.jdbc.Driver</Default>
+        <Default>sun.jdbc.odbc.JdbcOdbcDriver,org.hsqldb.jdbc.jdbcDriver,oracle.jdbc.OracleDriver,com.mysql.jdbc.Driver</Default>
     </PropertyDefinition>
 	<PropertyDefinition>
         <Name>CellBatchSize</Name>
@@ -192,7 +192,7 @@ driver.classpath=</code></blockquote>
 <h3> Hypersonic</h3>
 <blockquote><code>
 mondrian.foodmart.jdbcURL=jdbc:hsqldb:demo/hsql/FoodMart<br/>
-mondrian.jdbcDrivers=org.hsqldb.jdbcDriver<br/>
+mondrian.jdbcDrivers=org.hsqldb.jdbc.jdbcDriver<br/>
 driver.classpath=xx</code></blockquote>
 
 <h3> MySQL: can have user and password set in JDBC URL</h3>
