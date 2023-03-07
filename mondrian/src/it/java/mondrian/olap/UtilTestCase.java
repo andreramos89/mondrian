@@ -127,7 +127,7 @@ public class UtilTestCase extends TestCase {
 
         // actual testcase for bug
         properties = Util.parseConnectString(
-            "provider=mondrian; JdbcDrivers=org.hsqldb.jdbc.jdbcDriver;"
+            "provider=mondrian; JdbcDrivers=org.hsqldb.jdbcDriver;"
             + "Jdbc=jdbc:hsqldb:./sql/sampledata;"
             + "Catalog=C:\\cygwin\\home\\src\\jfreereport\\engines\\classic"
             + "\\extensions-mondrian\\demo\\steelwheels.mondrian.xml;"

@@ -195,7 +195,7 @@ doTest2() {
   hsqldb)
     (
       jdbcURL=jdbc:hsqldb:file:demo/hsqldb/foodmart
-      jdbcDrivers=org.hsqldb.jdbc.jdbcDriver
+      jdbcDrivers=org.hsqldb.jdbcDriver
       echo driver.classpath=lib/hsqldb.jar
       echo mondrian.foodmart.jdbcURL=${jdbcURL}
       echo mondrian.jdbcDrivers=${jdbcDrivers}
